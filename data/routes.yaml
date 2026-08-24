@@ -1,0 +1,55 @@
+# Onward routes for incredibleconsulting.org.
+# The landing page renders the entries flagged `primary: true` as cards.
+# The redirect policy page renders the whole list as the intended path mapping.
+# Schema documented by example: keep entries few and keep them accurate.
+
+- slug: consulting-commercial
+  title: "Incredible Consulting"
+  subtitle: "The commercial consulting arm"
+  domain: "incredible-consulting.com"
+  url: "https://incredible-consulting.com/"
+  category: consulting
+  status: canonical
+  primary: true
+  redirect_status: 301
+  match_paths: ["/services*", "/contact*", "/book*", "/pricing*"]
+  description: "Where engagements are scoped, quoted, and delivered. This is the canonical consulting domain and the default 301 target for every deep path on the typo domain."
+  audience: "Anyone looking to hire, scope a project, or book an intro call"
+  highlights:
+    - Default target when intent is commercial or unknown
+    - Receives the canonical link element from every page on this domain
+    - Owns pricing, engagement models, and case studies
+
+- slug: consulting-open
+  title: "Incredible Consulting Open"
+  subtitle: "Open methodology and public-good arm"
+  domain: "incredible-consulting.org"
+  url: "https://incredible-consulting.org/"
+  category: methodology
+  status: active
+  primary: true
+  redirect_status: 302
+  match_paths: ["/methodology*", "/playbooks*", "/open*"]
+  description: "The hyphenated .org that most mistyped traffic was actually aiming for. Holds the published methodology, playbooks, and reusable frameworks."
+  audience: "Practitioners reading, reusing, or citing the method"
+  highlights:
+    - The nearest-neighbour domain: one hyphen apart from this one
+    - Target for anyone who typed .org on purpose
+    - Owns frameworks, references, and open material
+
+- slug: company-umbrella
+  title: "Incredible Company"
+  subtitle: "Umbrella group brand"
+  domain: "incredible-company.com"
+  url: "https://incredible-company.com/"
+  category: brand
+  status: active
+  primary: false
+  redirect_status: 301
+  match_paths: ["/about*", "/legal*", "/imprint*"]
+  description: "Group level brand, legal entity, and imprint. Fallback for anything that is not clearly a consulting request, and the home of the shared contact address."
+  audience: "Press, partners, and anyone looking for the entity behind the brands"
+  highlights:
+    - Holds imprint, privacy, and legal pages for the portfolio
+    - Fallback route when intent cannot be classified
+    - Source of the shared contact address used on this domain

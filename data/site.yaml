@@ -1,0 +1,17 @@
+# Per-site identity. The theme reads only these keys, so nothing in
+# themes/incredible is hardcoded to one domain.
+
+sublabel: "Consulting"
+booking_url: "https://outlook.office.com/book/hello@lindamohamed.com/"
+strapline: "A signpost. The consulting work lives on the hyphenated domains."
+cta_line_1: "You want the"
+cta_line_2: "hyphenated domain."
+primary_cta: "Go to the consulting site"
+
+family:
+  - { name: "Company",    url: "https://incredible-company.com" }
+  - { name: "Consulting", url: "https://incredible-consulting.com" }
+  - { name: "Method",     url: "https://incredible-consulting.org" }
+  - { name: "Builders",   url: "https://incredible.builders" }
+  - { name: "Community",  url: "https://incredible.community" }
+  - { name: "Training",   url: "https://incredible.training" }

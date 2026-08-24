@@ -1,0 +1,3 @@
+[submodule "themes/incredible"]
+	path = themes/incredible
+	url = https://github.com/mzzavaa/incredible-theme

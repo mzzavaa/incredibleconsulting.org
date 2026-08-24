@@ -1,0 +1,32 @@
+baseURL = 'https://incredibleconsulting.org/'
+locale = 'en-us'
+theme = "incredible"
+title = 'Incredible Consulting'
+enableEmoji = false
+disableHugoGeneratorInject = true
+disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
+
+# Defensive typo-catch domain for incredible-consulting.org (note the hyphen).
+# Brand: green #3D8F37 · dark #0a1a08 · white #fff · bg #f8f9f6 · font Inter.
+# Theming is a later pass: layouts/ and static/ are intentionally empty.
+
+[params]
+  description  = "The unhyphenated variant of incredible-consulting.org. A signpost, not a site."
+  tagline      = "You are one hyphen away. Here is where you meant to go."
+  email        = "hello@incredible-company.com"
+  linkedin     = "https://www.linkedin.com/in/lindamohamed"
+  github       = "https://github.com/linda-mhmd"
+  booking      = "https://outlook.office.com/book/hello@lindamohamed.com/?ismsaljsauthenabled"
+  parent       = "https://incredible-company.com/"
+
+  # Routing targets. The canonical consulting domain is the commercial arm.
+  canonical         = "https://incredible-consulting.com/"
+  redirect_target   = "https://incredible-consulting.com/"
+  redirect_status   = 301
+  consulting_org    = "https://incredible-consulting.org/"
+
+  # Sibling domains in the Incredible portfolio.
+  company    = "https://incredible-company.com/"
+  builders   = "https://incredible.builders/"
+  community  = "https://incredible.community/"
+  training   = "https://incredible.training/"

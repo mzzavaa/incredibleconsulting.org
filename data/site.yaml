@@ -2,7 +2,7 @@
 # themes/incredible is hardcoded to one domain.
 
 sublabel: "Consulting"
-booking_url: "https://outlook.office.com/book/hello@lindamohamed.com/"
+booking_url: "https://outlook.office.com/book/Letstalk@lindamohamed.com/?ismsaljsauthenabled"
 strapline: "A signpost. The consulting work lives on the hyphenated domains."
 cta_line_1: "You want the"
 cta_line_2: "hyphenated domain."
@@ -15,3 +15,4 @@ family:
   - { name: "Builders",   url: "https://incredible.builders" }
   - { name: "Community",  url: "https://incredible.community" }
   - { name: "Training",   url: "https://incredible.training" }
+  - { name: "Linda Mohamed", url: "https://lindamohamed.com" }

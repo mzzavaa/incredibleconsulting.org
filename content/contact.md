@@ -3,6 +3,7 @@ title: "Contact"
 description: "A fallback route to a human. No forms here: this domain hands you to the group address or a booking link."
 weight: 30
 draft: false
+image: "img/mood/mechanism.webp"
 page_type: "fallback"
 form: false
 ---

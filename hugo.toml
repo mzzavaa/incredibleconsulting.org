@@ -16,7 +16,6 @@ disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
   email        = "hello@incredible-company.com"
   linkedin     = "https://www.linkedin.com/in/lindamohamed"
   github       = "https://github.com/linda-mhmd"
-  booking      = "https://outlook.office.com/book/hello@lindamohamed.com/?ismsaljsauthenabled"
   parent       = "https://incredible-company.com/"
 
   # Routing targets. The canonical consulting domain is the commercial arm.

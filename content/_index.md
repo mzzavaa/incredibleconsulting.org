@@ -3,6 +3,7 @@ title: "Incredible Consulting"
 description: "You probably meant incredible-consulting.org or incredible-consulting.com. Both are one click away."
 weight: 0
 draft: false
+image: "img/mood/mechanism.webp"
 page_type: "signpost"
 canonical_target: "https://incredible-consulting.com/"
 onward_routes: 2

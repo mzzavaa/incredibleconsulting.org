@@ -3,6 +3,7 @@ title: "Redirect and Canonical Policy"
 description: "What this domain does with traffic, where the 301 points, and why the landing page exists at all."
 weight: 20
 draft: false
+image: "img/mood/mechanism.webp"
 page_type: "policy"
 canonical_target: "https://incredible-consulting.com/"
 redirect_status: 301

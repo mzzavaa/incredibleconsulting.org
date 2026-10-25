@@ -11,3 +11,22 @@ hugo_stats.json
 *.log
 .env
 .env.*
+
+# Claude Code writes machine-local permissions here. A shared .claude/settings.json
+# is legitimate and stays tracked; only the local override is personal state.
+.claude/settings.local.json
+
+# There is no npm in this portfolio by house rule, but Playwright has clearly
+# been run here at some point (see the rules above) and it does not arrive alone.
+node_modules/
+
+# macOS AppleDouble sidecars, created when copying to non-native filesystems.
+._*
+
+# Local and secret files
+__pycache__/
+.venv/
+*.pem
+!.env.example
+!.env.sample
+!.env.template

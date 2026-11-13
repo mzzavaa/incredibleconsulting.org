@@ -6,21 +6,23 @@ enableEmoji = false
 disableHugoGeneratorInject = true
 disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
 
-# Defensive typo-catch domain for incredible-consulting.org (note the hyphen).
+# The unhyphenated twin of incredible-consulting.org (note the hyphen). Every
+# path forwards there; the two domains link to each other.
 # Brand: green #3D8F37 · dark #0a1a08 · white #fff · bg #f8f9f6 · font Inter.
 # Theming is a later pass: layouts/ and static/ are intentionally empty.
 
 [params]
-  description  = "The unhyphenated variant of incredible-consulting.org. A signpost, not a site."
-  tagline      = "You are one hyphen away. Here is where you meant to go."
+  description  = "The unhyphenated variant of incredible-consulting.org. It forwards there."
+  tagline      = "One hyphen away. Forwarding you now."
   email        = "hello@incredible-company.com"
   linkedin     = "https://www.linkedin.com/in/lindamohamed"
   github       = "https://github.com/linda-mhmd"
   parent       = "https://incredible-company.com/"
 
-  # Routing targets. The canonical consulting domain is the commercial arm.
-  canonical         = "https://incredible-consulting.com/"
-  redirect_target   = "https://incredible-consulting.com/"
+  # Routing targets. Everything forwards to the hyphenated open site.
+  canonical         = "https://incredible-consulting.org/"
+  redirect_target   = "https://incredible-consulting.org/"
+  consulting_com    = "https://incredible-consulting.com/"
   redirect_status   = 301
   consulting_org    = "https://incredible-consulting.org/"
 

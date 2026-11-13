@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Incredible Consulting · forwarding to incredible-consulting.org</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="{{ site.Params.redirect_target }}">
+{{/* GitHub Pages cannot send an HTTP 301, so the forward is done in the page:
+     script first, so the path is kept, and a meta refresh for clients without
+     script. Unknown paths are carried over to the same path on the target. */}}
+<script>
+(function () {
+  var t = {{ site.Params.redirect_target }}.replace(/\/$/, "");
+  var p = location.pathname;
+  if (p.indexOf("/legal/") === 0) { return; }
+  location.replace(t + p + location.search + location.hash);
+})();
+</script>
+<meta http-equiv="refresh" content="1; url={{ site.Params.redirect_target }}">
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f8f9f6; color: #0a1a08; font-family: Inter, system-ui, sans-serif; }
+  main { max-width: 34rem; padding: 2rem; }
+  h1 { font-size: 1.5rem; margin: 0 0 1rem; }
+  a { color: #3D8F37; }
+  p { line-height: 1.6; }
+</style>
+</head>
+<body>
+<main>
+  <h1>You are one hyphen away.</h1>
+  <p>This domain forwards to <a href="{{ site.Params.redirect_target }}">incredible-consulting.org</a>, the open site: every talk with its slides, and the material written into the AI Solutions Wiki.</p>
+  <p>Looking to hire the practice? That is <a href="{{ site.Params.consulting_com }}">incredible-consulting.com</a>.</p>
+  <p><a href="/legal/imprint/">Impressum</a> · <a href="/legal/privacy/">Privacy</a></p>
+</main>
+</body>
+</html>

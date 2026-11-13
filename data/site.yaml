@@ -11,5 +11,4 @@ primary_cta: "Go to the open site"
 family:
   - { name: "Consulting", url: "https://incredible-consulting.com" }
   - { name: "Open",       url: "https://incredible-consulting.org" }
-  - { name: "Training",   url: "https://incredible.training" }
   - { name: "Linda Mohamed", url: "https://lindamohamed.com" }
